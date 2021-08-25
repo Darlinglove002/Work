@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS only -->
+
+
+    <title>Catalog</title>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <ul class="ul__nav">
+                    <li class="li__nav"><a href="" class="a__nav"><img src="svg/bender.svg" alt=""
+                                class="img__left__nav"></a></li>
+                    <li class="li__nav"><a href="" class="a__nav"><img src="svg/loop.svg" alt=""
+                                class="img__left__nav"></a></li>
+                </ul>
+                <ul class="ul__nav">
+                    <li class="li__nav"><a href="" class="a__nav"><img src="svg/lines.svg" alt=""
+                                class="img__right__nav"></a></li>
+
+                    <li class="li__nav"><a href="" class="a__nav"><img src="svg/people.svg" alt=""
+                                class="img__right__nav"></a></li>
+
+                    <li class="li__nav"><a href="" class="a__nav"><img src="svg/shop5.svg" alt=""
+                                class="img__right__nav"></a></li>
+
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main__header__catalog__wrp">
+            <div class="container">
+                <section class="main__header__banner__catalog">
+
+                    <div class="main__header__catalog__text__wrp">
+                        <h2 class="h2__header__main__catalog">NEW ARRIVALS </h2>
+                        <span class="span__main__header__catalog">HOME / MEN / <span class="span__in__span">NEW
+                                ARRIVALS</span>
+                        </span>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <section class="main__catalog__menu">
+            <div class="container">
+                <div class="main__menu__catalog__wrap">
+                    <ul class="menu">
+                        <li class="li__menu"><span class="Filtering__catalog__span"> Filtering</span><img
+                                src="svg/Filtering.svg" alt="" class="img__catalog__filtering"></li>
+                    </ul>
+
+
+
+
+                    <ul class="menu">
+                        <li class="li__menu">
+                            <div class="frap">
+                                <form class="list-size sv1">
+                                    <!--     <button class="list-size-btn-title">
+                      <span>size</span>
+                      <svg width="11" height="6" viewBox="0 0 11 6" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.00214 5.00214C4.83521 5.00247 4.67343 4.94433 4.54488 4.83782L0.258102 1.2655C0.112196 1.14422 0.0204417 0.969958 0.00302325 0.781035C-0.0143952 0.592112 0.0439493 0.404007 0.165221 0.258101C0.286493 0.112196 0.460759 0.0204417 0.649682 0.00302327C0.838605 -0.0143952 1.02671 0.043949 1.17262 0.165221L5.00214 3.36602L8.83167 0.279536C8.90475 0.220188 8.98884 0.175869 9.0791 0.149125C9.16937 0.122382 9.26403 0.113741 9.35764 0.1237C9.45126 0.133659 9.54198 0.162021 9.6246 0.207156C9.70722 0.252292 9.7801 0.313311 9.83906 0.386705C9.90449 0.460167 9.95405 0.546351 9.98462 0.639855C10.0152 0.733359 10.0261 0.83217 10.0167 0.930097C10.0073 1.02802 9.97784 1.12296 9.93005 1.20895C9.88227 1.29494 9.81723 1.37013 9.73904 1.42982L5.45225 4.88068C5.32002 4.97036 5.16154 5.01312 5.00214 5.00214Z" />
+                      </svg>
+                    </button> -->
+                                    <input type="checkbox" id="switch">
+                                    <label class="list-size-btn-title" for="switch">
+                                        <div class="frap">
+                                            <p> Noer</p>
+                                        </div>
+                                        <svg width=" 11" height="6" viewBox="0 0 11 6"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="M5.00214 5.00214C4.83521 5.00247 4.67343 4.94433 4.54488 4.83782L0.258102 1.2655C0.112196 1.14422 0.0204417 0.969958 0.00302325 0.781035C-0.0143952 0.592112 0.0439493 0.404007 0.165221 0.258101C0.286493 0.112196 0.460759 0.0204417 0.649682 0.00302327C0.838605 -0.0143952 1.02671 0.043949 1.17262 0.165221L5.00214 3.36602L8.83167 0.279536C8.90475 0.220188 8.98884 0.175869 9.0791 0.149125C9.16937 0.122382 9.26403 0.113741 9.35764 0.1237C9.45126 0.133659 9.54198 0.162021 9.6246 0.207156C9.70722 0.252292 9.7801 0.313311 9.83906 0.386705C9.90449 0.460167 9.95405 0.546351 9.98462 0.639855C10.0152 0.733359 10.0261 0.83217 10.0167 0.930097C10.0073 1.02802 9.97784 1.12296 9.93005 1.20895C9.88227 1.29494 9.81723 1.37013 9.73904 1.42982L5.45225 4.88068C5.32002 4.97036 5.16154 5.01312 5.00214 5.00214Z" />
+                                        </svg>
+                                    </label>
+
+                                    <div class="list-size-wrp">
+                                        <input class="list-size-item" id="select-xsmall" type="checkbox" value="xsmall"
+                                            name="selectName">
+                                        <label class="list-size-item-title" for="select-xsmall">xs</label>
+
+                                        <input class="list-size-item" id="select-small" type="checkbox" value="small"
+                                            name="selectName">
+                                        <label class="list-size-item-title" for="select-small">s</label>
+
+                                        <input class="list-size-item" id="select-medium" type="checkbox" value="medium"
+                                            name="selectName">
+                                        <label class="list-size-item-title" for="select-medium">m</label>
+
+                                        <input class="list-size-item" id="select-large" type="checkbox" value="large"
+                                            name="selectName">
+                                        <label class="list-size-item-title" for="select-large">l</label>
+                                    </div>
+                                </form>
+                            </div>
+                        </li>
+                        <li class="li__menu">
+                            <form class="list-size sv1">
+                                <!--     <button class="list-size-btn-title">
+              <span>size</span>
+              <svg width="11" height="6" viewBox="0 0 11 6" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.00214 5.00214C4.83521 5.00247 4.67343 4.94433 4.54488 4.83782L0.258102 1.2655C0.112196 1.14422 0.0204417 0.969958 0.00302325 0.781035C-0.0143952 0.592112 0.0439493 0.404007 0.165221 0.258101C0.286493 0.112196 0.460759 0.0204417 0.649682 0.00302327C0.838605 -0.0143952 1.02671 0.043949 1.17262 0.165221L5.00214 3.36602L8.83167 0.279536C8.90475 0.220188 8.98884 0.175869 9.0791 0.149125C9.16937 0.122382 9.26403 0.113741 9.35764 0.1237C9.45126 0.133659 9.54198 0.162021 9.6246 0.207156C9.70722 0.252292 9.7801 0.313311 9.83906 0.386705C9.90449 0.460167 9.95405 0.546351 9.98462 0.639855C10.0152 0.733359 10.0261 0.83217 10.0167 0.930097C10.0073 1.02802 9.97784 1.12296 9.93005 1.20895C9.88227 1.29494 9.81723 1.37013 9.73904 1.42982L5.45225 4.88068C5.32002 4.97036 5.16154 5.01312 5.00214 5.00214Z" />
+              </svg>
+            </button> -->
+                                <input type="checkbox" id="switch">
+                                <label class="list-size-btn-title" for="switch">
+                                    <p>size</p>
+                                    <svg width="11" height="6" viewBox="0 0 11 6" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M5.00214 5.00214C4.83521 5.00247 4.67343 4.94433 4.54488 4.83782L0.258102 1.2655C0.112196 1.14422 0.0204417 0.969958 0.00302325 0.781035C-0.0143952 0.592112 0.0439493 0.404007 0.165221 0.258101C0.286493 0.112196 0.460759 0.0204417 0.649682 0.00302327C0.838605 -0.0143952 1.02671 0.043949 1.17262 0.165221L5.00214 3.36602L8.83167 0.279536C8.90475 0.220188 8.98884 0.175869 9.0791 0.149125C9.16937 0.122382 9.26403 0.113741 9.35764 0.1237C9.45126 0.133659 9.54198 0.162021 9.6246 0.207156C9.70722 0.252292 9.7801 0.313311 9.83906 0.386705C9.90449 0.460167 9.95405 0.546351 9.98462 0.639855C10.0152 0.733359 10.0261 0.83217 10.0167 0.930097C10.0073 1.02802 9.97784 1.12296 9.93005 1.20895C9.88227 1.29494 9.81723 1.37013 9.73904 1.42982L5.45225 4.88068C5.32002 4.97036 5.16154 5.01312 5.00214 5.00214Z" />
+                                    </svg>
+                                </label>
+
+                                <div class="list-size-wrp">
+                                    <input class="list-size-item" id="select-xsmall" type="checkbox" value="xsmall"
+                                        name="selectName">
+                                    <label class="list-size-item-title" for="select-xsmall">xs</label>
+
+                                    <input class="list-size-item" id="select-small" type="checkbox" value="small"
+                                        name="selectName">
+                                    <label class="list-size-item-title" for="select-small">s</label>
+
+                                    <input class="list-size-item" id="select-medium" type="checkbox" value="medium"
+                                        name="selectName">
+                                    <label class="list-size-item-title" for="select-medium">m</label>
+
+                                    <input class="list-size-item" id="select-large" type="checkbox" value="large"
+                                        name="selectName">
+                                    <label class="list-size-item-title" for="select-large">l</label>
+                                </div>
+                            </form>
+                        </li>
+                        <li class="li__menu">
+                            <form class="list-size sv1">
+                                <!--     <button class="list-size-btn-title">
+                      <span>size</span>
+                      <svg width="11" height="6" viewBox="0 0 11 6" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.00214 5.00214C4.83521 5.00247 4.67343 4.94433 4.54488 4.83782L0.258102 1.2655C0.112196 1.14422 0.0204417 0.969958 0.00302325 0.781035C-0.0143952 0.592112 0.0439493 0.404007 0.165221 0.258101C0.286493 0.112196 0.460759 0.0204417 0.649682 0.00302327C0.838605 -0.0143952 1.02671 0.043949 1.17262 0.165221L5.00214 3.36602L8.83167 0.279536C8.90475 0.220188 8.98884 0.175869 9.0791 0.149125C9.16937 0.122382 9.26403 0.113741 9.35764 0.1237C9.45126 0.133659 9.54198 0.162021 9.6246 0.207156C9.70722 0.252292 9.7801 0.313311 9.83906 0.386705C9.90449 0.460167 9.95405 0.546351 9.98462 0.639855C10.0152 0.733359 10.0261 0.83217 10.0167 0.930097C10.0073 1.02802 9.97784 1.12296 9.93005 1.20895C9.88227 1.29494 9.81723 1.37013 9.73904 1.42982L5.45225 4.88068C5.32002 4.97036 5.16154 5.01312 5.00214 5.00214Z" />
+                      </svg>
+                    </button> -->
+                                <input type="checkbox" id="switch">
+                                <label class="list-size-btn-title" for="switch">
+                                    <p>size</p>
+                                    <svg width="11" height="6" viewBox="0 0 11 6" xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M5.00214 5.00214C4.83521 5.00247 4.67343 4.94433 4.54488 4.83782L0.258102 1.2655C0.112196 1.14422 0.0204417 0.969958 0.00302325 0.781035C-0.0143952 0.592112 0.0439493 0.404007 0.165221 0.258101C0.286493 0.112196 0.460759 0.0204417 0.649682 0.00302327C0.838605 -0.0143952 1.02671 0.043949 1.17262 0.165221L5.00214 3.36602L8.83167 0.279536C8.90475 0.220188 8.98884 0.175869 9.0791 0.149125C9.16937 0.122382 9.26403 0.113741 9.35764 0.1237C9.45126 0.133659 9.54198 0.162021 9.6246 0.207156C9.70722 0.252292 9.7801 0.313311 9.83906 0.386705C9.90449 0.460167 9.95405 0.546351 9.98462 0.639855C10.0152 0.733359 10.0261 0.83217 10.0167 0.930097C10.0073 1.02802 9.97784 1.12296 9.93005 1.20895C9.88227 1.29494 9.81723 1.37013 9.73904 1.42982L5.45225 4.88068C5.32002 4.97036 5.16154 5.01312 5.00214 5.00214Z" />
+                                    </svg>
+                                </label>
+
+                                <div class="list-size-wrp">
+                                    <input class="list-size-item" id="select-xsmall" type="checkbox" value="xsmall"
+                                        name="selectName">
+                                    <label class="list-size-item-title" for="select-xsmall">xs</label>
+
+                                    <input class="list-size-item" id="select-small" type="checkbox" value="small"
+                                        name="selectName">
+                                    <label class="list-size-item-title" for="select-small">s</label>
+
+                                    <input class="list-size-item" id="select-medium" type="checkbox" value="medium"
+                                        name="selectName">
+                                    <label class="list-size-item-title" for="select-medium">m</label>
+
+                                    <input class="list-size-item" id="select-large" type="checkbox" value="large"
+                                        name="selectName">
+                                    <label class="list-size-item-title" for="select-large">l</label>
+                                </div>
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <div class="container">
+            <section class="featured__items">
+                <div class="h2__featured">Fetured Items</div>
+                <span class="span__featured">Shop for items based on what we featured in this week</span>
+                <div class="cards__featured">
+                    <div class="card__body">
+                        <a href="" class="a__featured"><img src="img/midman.png" alt="" class="img__featured"></a>
+                        <div class="item__wrap__featured">
+                            <span class="span__title__featured">ELLERY X M'O CAPSULE</span>
+                            <span class="span__subtitle__featured">Known for her sculptural takes on traditional
+                                tailoring,
+                                Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</span>
+                            <span class="span__price__featured">$52.00</span>
+                        </div>
+                        <button class="featured__button__span">
+
+
+                            <span>Add to Cart</span>
+                        </button>
+                    </div>
+                    <div class="card__body">
+                        <a href="" class="a__featured"><img src="img/man6.png" alt="" class="img__featured"></a>
+                        <div class="item__wrap__featured">
+                            <span class="span__title__featured">ELLERY X M'O CAPSULE</span>
+                            <span class="span__subtitle__featured">Known for her sculptural takes on traditional
+                                tailoring,
+                                Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</span>
+                            <span class="span__price__featured">$52.00</span>
+                        </div>
+                        <button class="featured__button__span">
+
+
+                            <span>Add to Cart</span>
+                        </button>
+                    </div>
+                    <div class="card__body">
+                        <a href="" class="a__featured"><img src="img/midman2.png" alt="" class="img__featured"></a>
+                        <div class="item__wrap__featured">
+                            <span class="span__title__featured">ELLERY X M'O CAPSULE</span>
+                            <span class="span__subtitle__featured">Known for her sculptural takes on traditional
+                                tailoring,
+                                Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</span>
+                            <span class="span__price__featured">$52.00</span>
+                        </div>
+                        <button class="featured__button__span">
+
+
+                            <span>Add to Cart</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="cards__featured">
+                    <div class="card__body">
+                        <a href="" class="a__featured"><img src="img/midman4.png" alt="" class="img__featured"></a>
+                        <div class="item__wrap__featured">
+                            <span class="span__title__featured">ELLERY X M'O CAPSULE</span>
+                            <span class="span__subtitle__featured">Known for her sculptural takes on traditional
+                                tailoring,
+                                Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</span>
+                            <span class="span__price__featured">$52.00</span>
+                        </div>
+                        <button class="featured__button__span">
+
+
+                            <span>Add to Cart</span>
+                        </button>
+                    </div>
+                    <div class="card__body">
+                        <a href="" class="a__featured"><img src="img/man7.png" alt="" class="img__featured"></a>
+                        <div class="item__wrap__featured">
+                            <span class="span__title__featured">ELLERY X M'O CAPSULE</span>
+                            <span class="span__subtitle__featured">Known for her sculptural takes on traditional
+                                tailoring,
+                                Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</span>
+                            <span class="span__price__featured">$52.00</span>
+                        </div>
+                        <button class="featured__button__span">
+
+
+                            <span>Add to Cart</span>
+                        </button>
+                    </div>
+                    <div class="card__body">
+                        <a href="" class="a__featured"><img src="img/man9.png" alt="" class="img__featured"></a>
+                        <div class="item__wrap__featured">
+                            <span class="span__title__featured">ELLERY X M'O CAPSULE</span>
+                            <span class="span__subtitle__featured">Known for her sculptural takes on traditional
+                                tailoring,
+                                Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</span>
+                            <span class="span__price__featured">$52.00</span>
+                        </div>
+                        <button class="featured__button__span">
+
+
+                            <span>Add to Cart</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="cards__featured">
+                    <div class="card__body">
+                        <a href="" class="a__featured"><img src="img/man10.png" alt="" class="img__featured"></a>
+                        <div class="item__wrap__featured">
+                            <span class="span__title__featured">ELLERY X M'O CAPSULE</span>
+                            <span class="span__subtitle__featured">Known for her sculptural takes on traditional
+                                tailoring,
+                                Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</span>
+                            <span class="span__price__featured">$52.00</span>
+                        </div>
+                        <button class="featured__button__span">
+
+
+                            <span>Add to Cart</span>
+                        </button>
+                    </div>
+                    <div class="card__body">
+                        <a href="" class="a__featured"><img src="img/man11.png" alt="" class="img__featured"></a>
+                        <div class="item__wrap__featured">
+                            <span class="span__title__featured">ELLERY X M'O CAPSULE</span>
+                            <span class="span__subtitle__featured">Known for her sculptural takes on traditional
+                                tailoring,
+                                Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</span>
+                            <span class="span__price__featured">$52.00</span>
+                        </div>
+                        <button class="featured__button__span">
+
+
+                            <span>Add to Cart</span>
+                        </button>
+                    </div>
+                    <div class="card__body">
+                        <a href="" class="a__featured"><img src="img/man12.png" alt="" class="img__featured"></a>
+                        <div class="item__wrap__featured">
+                            <span class="span__title__featured">ELLERY X M'O CAPSULE</span>
+                            <span class="span__subtitle__featured">Known for her sculptural takes on traditional
+                                tailoring,
+                                Australian arbiter of cool Kym Ellery teams up with Moda Operandi.</span>
+                            <span class="span__price__featured">$52.00</span>
+                        </div>
+                        <button class="featured__button__span">
+
+
+                            <span>Add to Cart</span>
+                        </button>
+                    </div>
+                </div>
+                <a href="" class="a__button__featured">
+                    <p class="button__featured__catalog">
+                        <span class="catalog__pages__wrap"><span class="symbols__catalog__featured"> &lt;</span><span
+                                class="span__catalog__pages">1</span> 2 3 4 5
+                            6.....20 <span class="symbols__catalog__featured">&gt;</span></span>
+                    </p>
+                </a>
+            </section>
+        </div>
+        <div class="mega__block">
+            <section class="services">
+                <div class="container">
+                    <div class="icon__services">
+                        <div class="block__services">
+                            <img src="svg/truck.svg" alt="" class="img__services">
+                            <span class="title__services">Free Delivery</span>
+                            <span class="subtitle__services">Worldwide delivery on all. Authorit tively morph
+                                next-generation innov tion with extensive models.</span>
+                        </div>
+                        <div class="block__services">
+                            <img src="svg/price.svg" alt="" class="img__services">
+                            <span class="title__services">Sales & discounts</span>
+                            <span class="subtitle__services">Worldwide delivery on all. Authorit tively morph
+                                next-generation innov tion with extensive models.</span>
+                        </div>
+                        <div class="block__services">
+                            <img src="svg/king.svg" alt="" class="img__services">
+                            <span class="title__services">Quality assurance</span>
+                            <span class="subtitle__services">Worldwide delivery on all. Authorit tively morph
+                                <span>next-generation innov tion with extensive models.</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+    </main>
+    <div class="container">
+        <footer class="footer">
+            <div class="container">
+                <section class="subscribee">
+                    <div class="subscribee__info">
+                        <img src="img/personcircleframe.png" alt="" class="img__subscribee">
+                        <p class="p__subscribee">“Vestibulum quis porttitor dui! Quisque viverra nunc mi, a
+                            pulvinar purus condimentum“</p>
+                    </div>
+                    <div class="subscribee__request">
+                        <span class="span__subscribee__title">Subscribe</span>
+                        <span class="span__subscribee__subtittle"> FOR OUR NEWLETTER AND PROMOTION</span>
+                        <form action="#" class="subscribee__form">
+                            <input type="email" placeholder="Enter Your Email" class="subscribee__email">
+                            <input type="submit" value="Subscribe" class="subscribee__button">
+                        </form>
+                    </div>
+            </div>
+    </div>
+    </section>
+
+
+    <div class="footer__labels">
+        <div class="container">
+            <div class="footer__labels__wrap">
+                <p class="p__labels">© 2021 Brand All Rights Reserved.</p>
+                <div class="labels">
+                    <a href="#" class="a__labels"><img src="svg/facebook.svg" alt="" class="img__labels"></a>
+                    <a href="#" class="a__labels"><img src="svg/instagram.svg" alt="" class="img__labels"></a>
+                    <a href="#" class="a__labels"><img src="svg/pinterest.svg" alt="" class="img__labels"></a>
+                    <a href="#" class="a__labels"><img src="svg/twitter.svg" alt="" class="img__labels"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
+
+    </div>
+
+
+
+
+</body>
+
+</html>
